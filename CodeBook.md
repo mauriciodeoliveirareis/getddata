@@ -35,7 +35,7 @@ genereta finalMeanData are described below:
 1. Calculate the mean from each column (except for "ActNumber",	"ActDesc" and	"SubNumber") grouping by ActDesc
 2. Calculate the mean from each column (except for "ActNumber",	"ActDesc" and	"SubNumber") grouping by SubNumber
 3. Merged the two mean data sets with rbind
-4. 11. Generated the file finalMeanData.txt from this merged data set.
+4. Generated the file finalMeanData.txt from this merged data set.
 
 
 
