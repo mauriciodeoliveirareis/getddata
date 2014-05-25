@@ -31,6 +31,7 @@ The other columns are the \*mean\* and \*std\* ones and its values are the avere
 first columns.
 I've wrote a function called calculateMean to centrilize a few operations that are performe twice. The complete steps to
 genereta finalMeanData are described below:
+
 1. Calculate the mean from each column (except for "ActNumber",	"ActDesc" and	"SubNumber") grouping by ActDesc
 2. Calculate the mean from each column (except for "ActNumber",	"ActDesc" and	"SubNumber") grouping by SubNumber
 3. Merged the two mean data sets with rbind
