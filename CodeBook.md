@@ -18,7 +18,7 @@ The code inside run_analysis.R is well commented to be easy to maintain. What wa
 8. Joined the activity description from activity_labels.txt into the allInOne data set based on the ActNumber Column. (For
 academic proposes, I've decided to use the sqldf lib to tes how it works.
 9. Get all the colnames from the allInOne data set that has mean or std in the name.
-10. Created a final data set from the allInOne dataSet just with the columns *mean*, *std* and the tree extra merged columns 
+10. Created a final data set from the allInOne dataSet just with the columns \*mean\*, \*std\* and the tree extra merged columns 
 "ActNumber" (Activity number),	"ActDesc"(Activity Description) and	"SubNumber" (Subject number).
 11. Generated the file finalData.txt from this final data set.
 
@@ -27,7 +27,7 @@ This file contains the data asked in the step 5 from the excercise and it's init
 described above.
 The first column has the kind of data that was measured. The first six rows have the 6 diferents kinds of activies and the
 subsequent rows have the diferents Subjects.
-The other columns are the *mean* and *std* ones and its values are the averege values for each group criteria from the 
+The other columns are the \*mean\* and \*std\* ones and its values are the averege values for each group criteria from the 
 first columns.
 I've wrote a function called calculateMean to centrilize a few operations that are performe twice. The complete steps to
 genereta finalMeanData are described below:
