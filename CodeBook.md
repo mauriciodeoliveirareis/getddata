@@ -4,7 +4,7 @@
 This file has all the data asked for the excercise until the step 4 from the excercise according with my interpretation from 
 the requirements.
 The excercise asked to get the mean and standard deviation informations from the file so, this file consists in colummns 
-*mean*, *std* and the tree extra merged columns "ActNumber" (Activity number),	ActDesc(Activity Description) and	
+\*mean\*, \*std\* and the tree extra merged columns "ActNumber" (Activity number),	ActDesc(Activity Description) and	
 "SubNumber" (Subject number).
 The code inside run_analysis.R is well commented to be easy to maintain. What was done in the code is explained below:
 
